@@ -1,0 +1,243 @@
+BENCHMARK REPORT
+rust
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     17323.76    3143.11   20642.29
+  Latency        7.21ms     2.46ms    82.60ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     5.11MB/s
+===============================================
+cpp_crow
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     40963.57    7718.49   51450.47
+  Latency        3.05ms     1.92ms    81.26ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     7.60MB/s
+===============================================
+ruby
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec       239.72      60.07    3181.00
+  Latency      519.04ms      1.50s     10.07s
+  HTTP codes:
+    1xx - 0, 2xx - 97464, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 2536
+  Errors:
+       timeout - 2536
+  Throughput:     2.94MB/s
+===============================================
+elixir_phoenix
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8399.95    2028.49   34394.60
+  Latency       14.98ms     2.76ms    80.56ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    10.56MB/s
+===============================================
+JS_react
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      3540.08     589.20    4474.78
+  Latency       35.32ms     6.63ms   189.08ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     7.24MB/s
+===============================================
+scala
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      6359.33    3297.02   13052.92
+  Latency       19.66ms    38.65ms      1.85s
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.33MB/s
+===============================================
+prolog
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     23006.44    1792.95   25674.31
+  Latency        5.44ms     1.47ms    62.98ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     4.73MB/s
+===============================================
+python_flask
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      1669.44     167.55    7098.64
+  Latency       74.92ms     3.41ms   140.49ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   400.57KB/s
+===============================================
+elixir_bandit
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8394.87     970.51   11393.75
+  Latency       14.92ms     8.70ms   278.93ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.65MB/s
+===============================================
+haskell
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     48817.10    6747.66   60915.03
+  Latency        2.58ms     2.18ms   116.25ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    10.71MB/s
+===============================================
+golang
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec    104325.60   26601.62  130956.64
+  Latency        1.20ms     2.04ms    70.28ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    18.80MB/s
+===============================================
+nim
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      5600.01    1102.87   11097.15
+  Latency       22.35ms     8.60ms   636.71ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   834.98KB/s
+===============================================
+java_spring
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     40561.14   15047.57   61006.79
+  Latency        3.10ms     4.06ms   147.70ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     7.38MB/s
+===============================================
+java_quarkus
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     59484.49   28433.26  106215.68
+  Latency        2.10ms     2.79ms    78.88ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     6.60MB/s
+===============================================
+ocaml
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     65492.99   15233.86   85649.60
+  Latency        1.93ms     2.38ms    74.75ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     7.01MB/s
+===============================================
+C_sharp
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     18294.23    6315.91   34457.12
+  Latency        6.86ms     4.69ms    83.09ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    39.43MB/s
+===============================================
+python_django
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      1571.48     330.51    2382.15
+  Latency       79.49ms    50.14ms      3.08s
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   552.38KB/s
+===============================================
+JS_svelte
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      8918.38    2136.25   13147.32
+  Latency       14.04ms     6.33ms   152.25ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     5.82MB/s
+===============================================
+racket
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      1881.16    1580.89    6453.61
+  Latency       66.49ms    13.09ms   295.98ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.27MB/s
+===============================================
+clojure
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     96102.83   45464.66  154999.85
+  Latency        1.08ms    10.33ms      1.05s
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    17.40MB/s
+===============================================
+julia
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      4891.54    1794.14    7923.76
+  Latency       25.49ms     5.13ms   192.18ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     0.92MB/s
+===============================================
+PHP
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     11588.25    1143.62   16589.28
+  Latency       10.80ms     2.38ms    81.36ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     2.60MB/s
+===============================================
+c_facil
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec    225768.45   50521.09  309119.79
+  Latency      546.62us     1.06ms    39.05ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:    46.37MB/s
+===============================================
+python_fastapi
+Bombarding http://localhost:8000 with 100000 request(s) using 125 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec      3127.49     910.44    7386.20
+  Latency       40.00ms     2.20ms   160.26ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:   613.07KB/s
+===============================================
