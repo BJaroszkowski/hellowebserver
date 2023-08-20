@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 COPY ./helloworld /helloworld
 WORKDIR /helloworld

@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN apt-get update && apt-get -y install ghc ghc-prof cabal-install libghc-zlib-dev && cabal update
 

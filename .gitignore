@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/rust,python,django,flask,csharp,clojure,elixir,phoenix,go,haskell,java,react,svelte,ocaml,racket,ruby,scala
-# Edit at https://www.toptal.com/developers/gitignore?templates=rust,python,django,flask,csharp,clojure,elixir,phoenix,go,haskell,java,react,svelte,ocaml,racket,ruby,scala
+**/.vscode
+**/.metals
 
 ### Clojure ###
 pom.xml

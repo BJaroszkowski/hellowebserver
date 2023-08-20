@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN  apt-get update && apt-get -y install libboost-dev && \
     wget -O crow.deb https://github.com/CrowCpp/Crow/releases/download/v1.0%2B5/crow-v1.0+5.deb && \

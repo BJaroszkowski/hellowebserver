@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN cd / && git clone --depth=1 --branch=v1.6.14 https://github.com/nim-lang/Nim.git && \
     cd Nim && . ./build_all.sh

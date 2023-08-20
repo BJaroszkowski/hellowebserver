@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN apt-get update && apt-get install -y dh-autoreconf zlib1g-dev libyaml-dev libssl-dev && \
     wget https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz && tar -xzf ruby-3.2.2.tar.gz && \

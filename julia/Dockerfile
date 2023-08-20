@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN apt-get update && apt-get -y install julia && julia -e 'using Pkg; Pkg.add("Genie", preserve=PRESERVE_DIRECT);'
 

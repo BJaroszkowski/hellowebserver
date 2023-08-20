@@ -1,4 +1,4 @@
-FROM bombardier:base
+FROM ghcr.io/bjaroszkowski/hellowebserver:base
 
 RUN cd / && wget https://download.racket-lang.org/installers/8.9/racket-8.9-src-builtpkgs.tgz && \
     tar xzfv racket-8.9-src-builtpkgs.tgz && \
